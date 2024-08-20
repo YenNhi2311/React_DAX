@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+    height: 100%;
+    width: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+    display: flex;
+    position: relative;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    height: 100vh;
+    transition: all 0.3s ease;
+=======
+>>>>>>> 83f94400db85848a231e5a651685c099a8b0e6d6
+=======
+>>>>>>> 83f94400db85848a231e5a651685c099a8b0e6d6
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+
+
+.sidebar-open .content {
+    margin-left: 240px;
+    /* Width of the sidebar */
+    transition: margin-left 0.3s ease;
+}
+
+.sidebar-closed .content {
+    margin-left: 0;
+    transition: margin-left 0.3s ease;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.sidebar {
+    width: 200px;
+    /* Adjust this value to set the width of the sidebar */
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.3s ease;
+    background-color: #f4f4f4;
+    /* Adjust this color to match your sidebar's background color */
+}
+
+.sidebar-hidden {
+    transform: translateX(-100%);
+=======
+>>>>>>> 83f94400db85848a231e5a651685c099a8b0e6d6
+=======
+>>>>>>> 83f94400db85848a231e5a651685c099a8b0e6d6
+}

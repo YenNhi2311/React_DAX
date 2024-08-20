@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "bootstrap": "^5.3.3",
+    "i18next": "^23.12.2",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "react-bootstrap": "^2.10.4",
+    "react-i18next": "^15.0.0",
+    "react-router-dom": "^6.26.0"
+=======
+    "i18next": "^23.12.2",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "react-i18next": "^15.0.0"
+>>>>>>> 83f94400db85848a231e5a651685c099a8b0e6d6
+=======
+    "i18next": "^23.12.2",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "react-i18next": "^15.0.0"
+>>>>>>> 83f94400db85848a231e5a651685c099a8b0e6d6
+  }
+}
